@@ -1,0 +1,334 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03273BA821DB14D90024FF1D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03273BA721DB14D90024FF1D /* main.swift */; };
+		03273BB021DB15350024FF1D /* KTScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03273BAF21DB15350024FF1D /* KTScene.swift */; };
+		03273BB221DB17330024FF1D /* KTLighting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03273BB121DB17330024FF1D /* KTLighting.swift */; };
+		03273BB421DB19DF0024FF1D /* KTUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03273BB321DB19DF0024FF1D /* KTUtilities.swift */; };
+		03E3CAFB21DB3EEB0052418D /* KTSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E3CAFA21DB3EEB0052418D /* KTSize.swift */; };
+		03E3CAFD21DB81680052418D /* KTTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E3CAFC21DB81680052418D /* KTTime.swift */; };
+		03E3CAFF21DB83D30052418D /* KTBaseObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E3CAFE21DB83D30052418D /* KTBaseObject.swift */; };
+		03E3CB0221DB84FB0052418D /* KTThing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E3CB0121DB84FB0052418D /* KTThing.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		03273BA221DB14D80024FF1D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		03273BA421DB14D90024FF1D /* KatariteConsole */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = KatariteConsole; sourceTree = BUILT_PRODUCTS_DIR; };
+		03273BA721DB14D90024FF1D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		03273BAF21DB15350024FF1D /* KTScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTScene.swift; sourceTree = "<group>"; };
+		03273BB121DB17330024FF1D /* KTLighting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTLighting.swift; sourceTree = "<group>"; };
+		03273BB321DB19DF0024FF1D /* KTUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTUtilities.swift; sourceTree = "<group>"; };
+		03E3CAFA21DB3EEB0052418D /* KTSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTSize.swift; sourceTree = "<group>"; };
+		03E3CAFC21DB81680052418D /* KTTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTTime.swift; sourceTree = "<group>"; };
+		03E3CAFE21DB83D30052418D /* KTBaseObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTBaseObject.swift; sourceTree = "<group>"; };
+		03E3CB0121DB84FB0052418D /* KTThing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTThing.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03273BA121DB14D80024FF1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03273B9B21DB14D80024FF1D = {
+			isa = PBXGroup;
+			children = (
+				03273BA621DB14D90024FF1D /* KatariteConsole */,
+				03273BA521DB14D90024FF1D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03273BA521DB14D90024FF1D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03273BA421DB14D90024FF1D /* KatariteConsole */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03273BA621DB14D90024FF1D /* KatariteConsole */ = {
+			isa = PBXGroup;
+			children = (
+				03273BAE21DB15040024FF1D /* KTEngine */,
+				03273BA721DB14D90024FF1D /* main.swift */,
+			);
+			path = KatariteConsole;
+			sourceTree = "<group>";
+		};
+		03273BAE21DB15040024FF1D /* KTEngine */ = {
+			isa = PBXGroup;
+			children = (
+				03E3CB0021DB84C70052418D /* KTObject */,
+				03273BAF21DB15350024FF1D /* KTScene.swift */,
+				03273BB121DB17330024FF1D /* KTLighting.swift */,
+				03273BB321DB19DF0024FF1D /* KTUtilities.swift */,
+				03E3CAFA21DB3EEB0052418D /* KTSize.swift */,
+				03E3CAFC21DB81680052418D /* KTTime.swift */,
+			);
+			path = KTEngine;
+			sourceTree = "<group>";
+		};
+		03E3CB0021DB84C70052418D /* KTObject */ = {
+			isa = PBXGroup;
+			children = (
+				03E3CAFE21DB83D30052418D /* KTBaseObject.swift */,
+				03E3CB0121DB84FB0052418D /* KTThing.swift */,
+			);
+			path = KTObject;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03273BA321DB14D80024FF1D /* KatariteConsole */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03273BAB21DB14D90024FF1D /* Build configuration list for PBXNativeTarget "KatariteConsole" */;
+			buildPhases = (
+				03273BA021DB14D80024FF1D /* Sources */,
+				03273BA121DB14D80024FF1D /* Frameworks */,
+				03273BA221DB14D80024FF1D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KatariteConsole;
+			productName = KatariteConsole;
+			productReference = 03273BA421DB14D90024FF1D /* KatariteConsole */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03273B9C21DB14D80024FF1D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Vorona Vyacheslav";
+				TargetAttributes = {
+					03273BA321DB14D80024FF1D = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 03273B9F21DB14D80024FF1D /* Build configuration list for PBXProject "KatariteConsole" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 03273B9B21DB14D80024FF1D;
+			productRefGroup = 03273BA521DB14D90024FF1D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03273BA321DB14D80024FF1D /* KatariteConsole */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03273BA021DB14D80024FF1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03E3CAFF21DB83D30052418D /* KTBaseObject.swift in Sources */,
+				03E3CB0221DB84FB0052418D /* KTThing.swift in Sources */,
+				03273BA821DB14D90024FF1D /* main.swift in Sources */,
+				03E3CAFD21DB81680052418D /* KTTime.swift in Sources */,
+				03273BB021DB15350024FF1D /* KTScene.swift in Sources */,
+				03273BB221DB17330024FF1D /* KTLighting.swift in Sources */,
+				03273BB421DB19DF0024FF1D /* KTUtilities.swift in Sources */,
+				03E3CAFB21DB3EEB0052418D /* KTSize.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		03273BA921DB14D90024FF1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		03273BAA21DB14D90024FF1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		03273BAC21DB14D90024FF1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V2QDS3YBWY;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		03273BAD21DB14D90024FF1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V2QDS3YBWY;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03273B9F21DB14D80024FF1D /* Build configuration list for PBXProject "KatariteConsole" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03273BA921DB14D90024FF1D /* Debug */,
+				03273BAA21DB14D90024FF1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03273BAB21DB14D90024FF1D /* Build configuration list for PBXNativeTarget "KatariteConsole" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03273BAC21DB14D90024FF1D /* Debug */,
+				03273BAD21DB14D90024FF1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03273B9C21DB14D80024FF1D /* Project object */;
+}
